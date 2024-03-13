@@ -1,7 +1,7 @@
 Steganos LockNote 2.0
 ---------------------
 Self-modifying encrypted notepad
-Copyright (C) 2023 Steganos Software GmbH
+Copyright (C) 2024 Steganos Software GmbH
 
 Steganos LockNote 2.0 is the modern incarnation of the popular Steganos LockNote from 2006 - with support
 for High Definition displays (HDPI), new fonts, support for more languages as well as upgraded, state of
