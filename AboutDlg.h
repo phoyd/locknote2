@@ -105,7 +105,7 @@ public:
 		}
 
 		// set image placing for this dpi
-		rc_image.left = (rcwidth - width) / 2;
+		rc_image.left = (width <= rcwidth ? rcwidth - width : 0) / 2;
 		rc_image.top = padding_top_adjusted;
 		rc_image.right = rc_image.left + width;
 		rc_image.bottom = rc_image.top + height;

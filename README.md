@@ -35,6 +35,11 @@ The LockNote 2 source has following dependencies:
 History
 -------
 
+* 2.0.3, 2024/03/13:
+	- NEW: new, clearer icon
+	- NEW: much smaller exe size due to optimized about dialog images
+	- FIX: about box dialog broken in some languages/dpi settings
+
 * 2.0.2, 2023/12/07:
 	- FIX: fixed problem in search results where selection was off due to utf-8 vs. wide string indexing mismatch
 	
