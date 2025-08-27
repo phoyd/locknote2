@@ -112,7 +112,7 @@
       <ProxyFileName>locknote_p.c</ProxyFileName>
     </Midl>
     <ClCompile>
-      <AdditionalOptions>/Og /Os /Oy /Zl /Gy %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Os /Oy /Zl /Gy %(AdditionalOptions)</AdditionalOptions>
       <Optimization>MinSpace</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
