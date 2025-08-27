@@ -34,8 +34,8 @@ extern CAppModule _Module;
 
 #define CRYPTOPP_DEFAULT_NO_DLL
 
-#include "default.h"
-#include "hex.h"
-#include "randpool.h"
-#include "osrng.h"
+#include "cryptopp/default.h"
+#include "cryptopp/hex.h"
+#include "cryptopp/randpool.h"
+#include "cryptopp/osrng.h"
 #include "aeslayer.h"

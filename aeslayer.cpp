@@ -2,17 +2,17 @@
 #include <iostream>
 
 // CryptoPP includes
-#include "sha.h"
-#include "pwdbased.h"
-#include "scrypt.h"
-#include "aes.h"
-#include "modes.h"
-#include "hmac.h"
+#include "cryptopp/sha.h"
+#include "cryptopp/pwdbased.h"
+#include "cryptopp/scrypt.h"
+#include "cryptopp/aes.h"
+#include "cryptopp/modes.h"
+#include "cryptopp/hmac.h"
 
 #include "aeslayer.h"
 
-#include "hex.h"
-#include "files.h"
+#include "cryptopp/hex.h"
+#include "cryptopp/files.h"
 
 using namespace std;
 

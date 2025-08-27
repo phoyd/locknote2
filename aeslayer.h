@@ -1,7 +1,7 @@
 #ifndef _AESLAYER_H_
 #define _AESLAYER_H_
 
-#include "algparam.h"
+#include "cryptopp/algparam.h"
 
 NAMESPACE_BEGIN(CryptoPP)
 

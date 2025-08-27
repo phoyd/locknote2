@@ -1,0 +1,5 @@
+{
+  "name": "locknote2",
+  "version-string": "2.0.0",
+  "dependencies": [ "wtl", "cryptopp" ]
+}
