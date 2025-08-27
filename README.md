@@ -18,22 +18,20 @@ Official binary executable - https://go.steganos.com/productpage_locknote2_downl
 Build Notes
 -----------
 
-LockNote 2 builds with Microsoft Visual Studio 2022.
+LockNote 2 builds with Microsoft Visual Studio 2022. 
 
 The LockNote 2 source has following dependencies:
 
 * CryptoPP 8.7.0, available at http://www.cryptopp.com/.
-  The source must reside in the cryptopp subdirectory, and a compiled libfile
-  named 'cryptlib.lib' must reside in the following locations for Debug and Release:
-  ```cryptopp/output/win32/debug/cryptlib.lib``` (Debug)
-  ```cryptopp/output/win32/release/cryptlib.lib``` (Release)
-
 * WTL 10, available at http://wtl.sourceforge.net/.
-  The WTL include files must reside in the wtl10 subdirectory.
 
+The depencencies with be built with vcpkg together with the main application.
 
 History
 -------
+
+* 2.0.4, 2025/08/27: 
+    - NEW: Simplified building with vcpkg
 
 * 2.0.3, 2024/03/13:
 	- NEW: new, clearer icon
